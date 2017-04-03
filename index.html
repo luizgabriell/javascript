@@ -27,7 +27,7 @@
     }
 
     var mediaRendaFamiliar = totalRenda / totalFamiliares;
-    mostra("A média da renda familiar da sua residência é: " + "R$" + mediaRendaFamiliar + " reais.");
+    mostra("A renda per capita da sua família é de: " + "R$" + mediaRendaFamiliar + " reais.");
 
     // R$937 é salário mínimo vigente
     var salarioMinimo = 937 + 937/2;
@@ -35,9 +35,9 @@
     //Lógica para verificar o direito ao passe Livre
     if(mediaRendaFamiliar <= salarioMinimo){
 
-        mostra("Você tem direito ao passe Livre Estudantíl!<br>Solicite na secretaria da sua escola/faculdade.")
+        mostra("Você tem direito ao passe Livre Estudantíl!<br>Solicite maiores informações na secretaria da sua instituição de ensino.")
     } else {
-        mostra("Você não tem diretio passe Livre Estudantíl.<br>Mas pode tentar solicitar o direito a meia tarifa estudantíl.");
+        mostra("Você não tem possui direito passe Livre Estudantíl.<br>Tente solicitar maiores informações sobre a meia tarifa estudantíl na secretaria da sua instituição de ensino.");
     }
 
  
